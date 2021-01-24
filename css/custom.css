@@ -32,9 +32,18 @@ nav.nav-extended .nav-wrapper {
     height: 80px;
     z-index: 997;
 }
+nav i,
+nav [class^="mdi-"], nav [class*="mdi-"],
+nav i.material-icons {
+  display: block;
+  font-size: 24px;
+  height: 80px;
+  line-height: 80px;
+}
 
-
-
+.side-nav{background-image: url('..//img/textura2.png')}
+.side-nav li a {color: #fff; font-weight: 100;padding: 10px;}
+.side-nav li a:hover{border: solid 01px #fff;}
 
 /*home - animation*/
 @keyframes mudarbg {
