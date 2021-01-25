@@ -1,13 +1,18 @@
 /*height 100%*/
 html, body{height: 100%;}
 .bloco{min-height: 100%;padding:80px ;}
+
 /*colors*/
 .blue-logo{background-color: #2dc7d0;}
+
 
 /*Home*/
 .home{animation: mudarbg 20s infinite;  background-image: url('../img/bg.jpg'); background-repeat: no-repeat; background-size: cover;}
 .banner h2{font-size: 2.5rem;font-weight: 900; text-transform: uppercase;}
 .banner p {font-size: 1.2rem; line-height: 1.8rem;}
+
+
+
 /*LOGO*/
 .logo_text{font-size: 0;margin: 0;}
 .logo_img{width: 100px; margin-top: 15px; }
@@ -40,10 +45,10 @@ nav i.material-icons {
   height: 80px;
   line-height: 80px;
 }
-
-.side-nav{background-image: url('..//img/textura2.png')}
+.side-nav{background-image: url('..//img/textura\ 02.png')}
 .side-nav li a {color: #fff; font-weight: 100;padding: 10px;}
 .side-nav li a:hover{border: solid 01px #fff;}
+
 
 /*home - animation*/
 @keyframes mudarbg {
@@ -51,6 +56,8 @@ nav i.material-icons {
     80%{background-image: url('../img/bg3.jpg');}
     100%{background-image: url('../img/bg.jpg');}
 }
+
+
 /*Media*/
 @media only screen and (max-width: 480px) {
 }
@@ -58,7 +65,6 @@ nav i.material-icons {
     .banner {padding-top: 4,5rem ;}
     .banner h2{font-size: 4rem;}
 }
-
 @media only screen and (min-width: 993px) {
     .banner {padding-top: 5rem ;}
     .banner h2{font-size: 5rem;}
